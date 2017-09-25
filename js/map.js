@@ -46,7 +46,7 @@ function main() {
     // Leeren TileLayer hinzufügen
 
     L.tileLayer('', {
-        attribution: 'Code: <a href="https://www.twitter.com/dahilzen">David Hilzendegen</a> | Daten: <a href="http://www.statistik-bw.de/">Statistisches Landesamt</a>'
+        attribution: 'Code: <a href="https://www.twitter.com/dahilzen">David Hilzendegen</a> | Daten: <a href="http://www.statistik-bw.de/">Statistisches Landesamt</a>, Auskunft der Gemeinden'
     }).addTo(map_object);
 
     // cartodb createLayer
